@@ -70,7 +70,7 @@
   justify-content: center;
   margin: 1rem;
   font-size: 30px;
-  width: 320px;
+  max-width: 320px;
   height: 220px;
   background-color: rgba(156, 155, 155, 0.1);
   box-shadow: 1px 3px 5px rgba(0, 0, 0, .1);
@@ -167,4 +167,113 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
+}
+
+@media (max-width: 1228px) {
+  body{
+    font-size: 60%;
+  };
+  .clock{
+    position: relative;
+  }
+ 
+}
+
+@media (max-width: 1268px) {
+  .sun{
+    width: 200px;
+    height: 200px;
+  }
+  .header{
+    margin-left: 0;
+    justify-content: left;
+    text-align: left;
+    margin-right: 300px;
+  }
+  .lengths{
+    margin-top: 3rem;
+  }
+  .clock{
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 1060px){
+  .header{
+    margin-bottom: 10px;
+  }
+  .title{
+    margin-bottom: 10px;
+  }
+  .length{
+    margin-top: 10px;
+  }
+  .lengths{
+    flex-direction: column;
+    margin-top: -35px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 978px){
+  .header{
+    margin-left: 20px;
+    margin-right: 200px;
+  }
+  .title{
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 702px){
+  .sun{
+    width: 100px;
+    height: 100px;
+  }
+  .title{
+    font-size: 70px;
+    margin-left: 8px;
+  }
+  .iconday{
+    width: 20px;
+    height: 20px;
+  }
+  .header{
+    margin-left: 20px;
+    margin-right: 100px;
+  }
+  .length{
+    font-size: 20px;
+    max-width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    height: 120px;
+    justify-content: center;    
+  }
+  .lengths{
+    margin-top: .5rem;
+    flex-direction: row;
+    margin-left: 10px;
+    padding: 0;
+  }
+  .label{
+    margin-top: 5px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .btn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .clock{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    top: auto;
+  }
+
 }

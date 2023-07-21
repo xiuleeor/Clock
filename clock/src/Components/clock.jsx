@@ -101,6 +101,7 @@ function Clock() {
       <div className='lengths'>
         <div className='length'>
           <div id="break-label" className='label'>Break Length</div>
+          <div className='btn_container'>
           <button className="btn" id="break-decrement" onClick={handleBreakDecrement}>
           <BsArrowDownCircle className={`icon ${day ? "dark" : "ligth"}`}/>
           </button>
@@ -108,9 +109,11 @@ function Clock() {
           <button className="btn" id="break-increment" onClick={handleBreakIncrement}>
             <BsArrowUpCircle className={`icon ${day ? "dark" : "ligth"}`}/>
           </button>
+          </div>
         </div>
         <div className='length'>
           <div id="session-label" className='label'>Session Length</div>
+          <div className='btn_container'>
           <button className="btn" id="session-decrement" onClick={handleSessionDecrement}>
           <BsArrowDownCircle className={`icon ${day ? "dark" : "ligth"}`}/>
           </button>
@@ -119,6 +122,8 @@ function Clock() {
             <BsArrowUpCircle className={`icon ${day ? "dark" : "ligth"}`}/>
           </button>
         </div>
+          </div>
+          
       </div>
       <div className='clock'>
       <div className='timer'>
