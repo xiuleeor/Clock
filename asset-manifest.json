@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Clock/static/css/main.e860e1de.css",
+    "main.js": "/Clock/static/js/main.c5ec5578.js",
+    "static/js/787.b972bb5b.chunk.js": "/Clock/static/js/787.b972bb5b.chunk.js",
+    "static/media/moon.png": "/Clock/static/media/moon.b28a42f333abf6e6fa68.png",
+    "static/media/sun.png": "/Clock/static/media/sun.0b1a48404e9f20c8f0d8.png",
+    "index.html": "/Clock/index.html",
+    "main.e860e1de.css.map": "/Clock/static/css/main.e860e1de.css.map",
+    "main.c5ec5578.js.map": "/Clock/static/js/main.c5ec5578.js.map",
+    "787.b972bb5b.chunk.js.map": "/Clock/static/js/787.b972bb5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e860e1de.css",
+    "static/js/main.c5ec5578.js"
+  ]
+}
